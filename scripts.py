@@ -16,7 +16,8 @@ def greet(who_to_greet):
     return greeting
 
 
-# print(greet('world'))
-# print(greet('Corey'))
+print(greet("world"))
+print(greet("Corey"))
 r = requests.get("https://coreyms.com")
 print(r.status_code)
+print(r.ok)
